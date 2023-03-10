@@ -1,10 +1,14 @@
+
+*{
+    padding: 0;
+}
 body{
     background-color: white;
     margin: 10%;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    
+    display: flex;
 }
 .container{
     background: linear-gradient(#2cebc7,#8267d5) ;
@@ -14,6 +18,7 @@ body{
     border-radius: 20px;
     margin: 0 auto;
     box-shadow: 6px 10px 20px gray;
+    
 }
 div{
     
@@ -22,7 +27,7 @@ div{
     
 }
 #mail, #password{
-    width: 100%;
+    width: 97%;
     padding: 7px;
    
     
@@ -37,4 +42,117 @@ div{
     position: relative;
     left: 85%;
     padding: 5px 15px;
+}
+@media(min-width:768px){
+    body{
+        
+        font-size: 16px;
+        display: flex;
+    }
+    .container{
+       
+       width: 760px;
+
+    }
+    div{
+    
+        text-align: left;
+        padding: 20px;
+        
+    }
+    
+    #mail, #password{
+        width: 97%;
+        padding: 7px;
+       
+        
+    }
+    #generos{
+        size: 1;
+        width: 100%;
+        padding: 7px;
+        
+    }
+    .boton input{
+        position: relative;
+        left: 82%;
+        padding: 15px 35px;
+    }
+    
+}
+@media(min-width:1024px){
+    body{
+        
+        font-size: 22px;
+        display: flex;
+    }
+    .container{
+       
+       width: 1000px;
+       padding-left: 200px;
+
+    }
+    div{
+    
+        text-align: left;
+        padding: 20px;
+        
+    }
+    
+    #mail, #password{
+        width: 70%;
+        padding: 7px;
+       
+        
+    }
+    #generos{
+        size: 1;
+        width: 73%;
+        padding: 7px;
+        
+    }
+    .boton input{
+        position: relative;
+        left: 25%;
+        padding: 15px 35px;
+    }
+    
+}
+@media(min-width:1440px){
+    body{
+        
+        font-size: 22px;
+        display: flex;
+    }
+    .container{
+       
+       width: 1400px;
+       padding-left: 300px;
+
+    }
+    div{
+    
+        text-align: left;
+        padding: 20px;
+        
+    }
+    
+    #mail, #password{
+        width: 70%;
+        padding: 7px;
+       
+        
+    }
+    #generos{
+        size: 1;
+        width: 73%;
+        padding: 7px;
+        
+    }
+    .boton input{
+        position: relative;
+        left: 25%;
+        padding: 15px 35px;
+    }
+    
 }
