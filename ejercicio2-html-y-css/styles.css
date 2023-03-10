@@ -1,0 +1,40 @@
+body{
+    background-color: white;
+    margin: 10%;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    
+}
+.container{
+    background: linear-gradient(#2cebc7,#8267d5) ;
+    color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    box-shadow: 6px 10px 20px gray;
+}
+div{
+    
+    text-align: left;
+    padding: 20px;
+    
+}
+#mail, #password{
+    width: 100%;
+    padding: 7px;
+   
+    
+}
+#generos{
+    size: 1;
+    width: 100%;
+    padding: 7px;
+    
+}
+.boton input{
+    position: relative;
+    left: 85%;
+    padding: 5px 15px;
+}

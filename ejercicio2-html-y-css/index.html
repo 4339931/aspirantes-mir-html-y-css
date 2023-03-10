@@ -8,6 +8,25 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div>
+            <h1>Login</h1>
+            <p><label for="apellido">Email</label></p>
+            <p><input type="mail" id="mail" name="Email"/></p>
+            <p><label for="apellido">Password</label></p>
+            <p><input type="password" id="password" name="Password"/></p>
+            <p><label for="apellido">Genero</label></p>
+            <select name="generos" id="generos">
+                <option value="woman">woman</option>
+                <option value="man">man</option>
+            </select>
+            <p>
+                  <input type="checkbox" onclick="agreesubmit(this)" name="condiciones"/> acepto los terminos</a></input>
+             </p>
+            <div class="boton">
+                <input type="submit" value="Enviar" />
+            </div>
+        </div>
+    </div>
 </body>
 </html>
